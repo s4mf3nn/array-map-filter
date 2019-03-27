@@ -54,7 +54,7 @@ function searchWordFilter(items, search) {
   return revenge;
 }
 
-console.log(searchWordFilter([
+/*console.log(searchWordFilter([
   'Mad Max: Fury Road',
   'Interstellar',
   'Revenge of the Nerds',
@@ -62,7 +62,7 @@ console.log(searchWordFilter([
   'Star Wars: Episode I - The Phantom Menace',
   'Star Wars: Episode II - Attack of the Clones',
   'Star Wars: Episode III - Revenge of the Sith'
-], 'revenge'));
+], 'revenge'));*/
 
 // Ne pas modifier l'export
 module.exports = searchWordFilter;

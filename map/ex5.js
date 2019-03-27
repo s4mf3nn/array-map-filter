@@ -19,6 +19,6 @@ function multiplyOddIndices(numbers) {
   return num;
 }
 
-console.log(multiplyOddIndices([3, 8, 11, 13, 19, 7]));
+//console.log(multiplyOddIndices([3, 8, 11, 13, 19, 7]));
 
 module.exports = multiplyOddIndices;

@@ -35,13 +35,13 @@ function filterOnPrice(products, maxPrice) {
   return under500
 }
 
-console.log(filterOnPrice([
+/*console.log(filterOnPrice([
   { name: 'iPhone X', price: 1159 },
   { name: 'Xiaomi Mi A2', price: 209 },
   { name: 'Samsung Galaxy Note 9', price: 992 },
   { name: 'Huawei P20', price: 480 },
   { name: 'Huawei P20 Pro', price: 649 }
-], 500));
+], 500));*/
 
 // Ne pas modifier l'export
 module.exports = filterOnPrice;

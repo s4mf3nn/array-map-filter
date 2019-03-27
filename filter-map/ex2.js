@@ -33,7 +33,7 @@ function getCampusesTeachingReact(campuses) {
   return react;
 }
 
-console.log(getCampusesTeachingReact([
+/*console.log(getCampusesTeachingReact([
   { city: 'Bordeaux', curriculums: ['PHP/Symfony', 'JS/React'] },
   { city: 'La Loupe', curriculums: ['JS/Angular'] },
   { city: 'Lille', curriculums: ['PHP/Symfony', 'JS/React'] },
@@ -41,5 +41,6 @@ console.log(getCampusesTeachingReact([
   { city: 'Orléans', curriculums: ['PHP/Symfony'] },
   { city: 'Reims', curriculums: ['JS/React'] },
   { city: 'Toulouse', curriculums: ['JEE/Android', 'JS/React'] }
-]));
+]));*/
+
 module.exports = getCampusesTeachingReact;

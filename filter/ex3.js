@@ -30,14 +30,14 @@ function keepStarks(names) {
   return stark;
 }
 
-console.log(keepStarks([
+/*console.log(keepStarks([
   'Bran Stark',
   'Cersei Lannister',
   'Sandor Clegane',
   'Arya Stark',
   'Yara Greyjoy',
   'Sansa Stark'
-]));
+]));*/
 
 // Ne pas modifier l'export
 module.exports = keepStarks;

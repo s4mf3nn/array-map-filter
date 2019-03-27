@@ -54,7 +54,7 @@ function getFoodCategories(foods) {
   return foodCategory;
 }
 
-console.log(getFoodCategories([
+/*console.log(getFoodCategories([
   {
     food: 'Bacon',
     isVegetarian: false
@@ -71,7 +71,7 @@ console.log(getFoodCategories([
     food: 'Chick Pea',
     isVegetarian: true
   }
-]))
+]))*/
 
 // Ne pas modifier l'export
 module.exports = getFoodCategories;

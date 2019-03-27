@@ -77,7 +77,7 @@ function getMoviesFreshness(movies) {
   return movie;
 }
 
-console.log(getMoviesFreshness([
+/*console.log(getMoviesFreshness([
   {
     name: 'Crazy Rich Asians',
     rating: 93
@@ -94,7 +94,7 @@ console.log(getMoviesFreshness([
     name: 'White Boy Rick',
     rating: 60
   }
-]))
+]))*/
 
 // Ne pas modifier l'export
 module.exports = getMoviesFreshness;

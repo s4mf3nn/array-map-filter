@@ -61,7 +61,7 @@ function getCirclesProperties(radiuses) {
   });
 }
 
-console.log(getCirclesProperties([1, 3, 4.5, 7]));
+//console.log(getCirclesProperties([1, 3, 4.5, 7]));
 
 // Ne pas modifier l'export
 module.exports = getCirclesProperties;
