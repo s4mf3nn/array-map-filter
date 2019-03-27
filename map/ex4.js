@@ -4,7 +4,7 @@ Ecrire une fonction getCirclesProperties, qui prend en entrée un tableau de nom
 représentant les rayons de cercles, et calcule, pour chacun, la circonférence et la surface de ces cercles.
 
 Formules pour les calculs :
-* Ciconférence  =  2 * Pi * rayon
+* Cironférence  =  2 * Pi * rayon
 * Diamètre      =  Pi * rayon * rayon
 
 En JavaScript, la valeur de Pi est donnée par Math.PI.
@@ -52,9 +52,16 @@ Tableau de sortie correspondant (toFixed transforme les nombres en chaînes)
 */
 
 function getCirclesProperties(radiuses) {
+  return radiuses.map(radius => {
+    return {
+      'radius': radius,
+      'circumference': (2 * Math.PI * radius).toFixed(3),
+      'surface': (Math.PI * radius * radius).toFixed(3),
+    }
+  });
 }
 
-
+console.log(getCirclesProperties([1, 3, 4.5, 7]));
 
 // Ne pas modifier l'export
 module.exports = getCirclesProperties;

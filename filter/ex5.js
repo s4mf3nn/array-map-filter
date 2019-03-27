@@ -36,10 +36,33 @@ Exemple d'entrée:
   ]
 
 
+
+
+function searchWordFilter(items, search) {
+  const revenge = items.filter(function (item) {
+    let regex = /'+search+'/i;
+    return item = regex.test(item);
+  })
+  return revenge;
+}
  */
 
 function searchWordFilter(items, search) {
+  const revenge = items.filter(function (item) {
+    return item.toLowerCase().includes(search.toLowerCase());
+  })
+  return revenge;
 }
+
+console.log(searchWordFilter([
+  'Mad Max: Fury Road',
+  'Interstellar',
+  'Revenge of the Nerds',
+  'Revenge of the Pink Panther',
+  'Star Wars: Episode I - The Phantom Menace',
+  'Star Wars: Episode II - Attack of the Clones',
+  'Star Wars: Episode III - Revenge of the Sith'
+], 'revenge'));
 
 // Ne pas modifier l'export
 module.exports = searchWordFilter;
