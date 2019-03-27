@@ -33,3 +33,5 @@ function getStringsLength(strings) {
 console.log(getStringsLength(['Cat', 'Lion', 'Tiger', 'Jaguar', 'Leopard']));
 
 // Ne pas modifier l'export
+
+module.exports = getStringsLength;
